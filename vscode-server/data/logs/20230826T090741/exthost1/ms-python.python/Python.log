@@ -1,0 +1,16 @@
+2023-08-26 09:07:59.390 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-08-26 09:07:59.391 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-08-26 09:07:59.391 [info] Test server listening.
+2023-08-26 09:07:59.392 [info] Python interpreter path: /usr/local/bin/python
+2023-08-26 09:07:59.394 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-08-26 09:07:59.396 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-08-26 09:07:59.749 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-08-26 09:07:59.752 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-08-26 09:07:59.754 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-08-26 09:07:59.756 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-08-26 09:07:59.758 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-08-26 09:07:59.759 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-08-26 09:08:00.459 [info] > conda info --json
+2023-08-26 09:08:00.561 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-08-26 09:08:00.562 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-08-26 09:08:03.662 [info] Starting Pylance language server.

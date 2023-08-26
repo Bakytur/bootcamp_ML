@@ -1,0 +1,14 @@
+2023-08-26 09:08:03.569 [info] [Info  - 9:08:02 AM] (465) Pylance language server 2023.8.40 (pyright 03f79a81) starting
+2023-08-26 09:08:03.619 [info] [Info  - 9:08:03 AM] (465) Server root directory: /root/.vscode-server/extensions/ms-python.vscode-pylance-2023.8.40/dist
+2023-08-26 09:08:03.621 [info] [Info  - 9:08:03 AM] (465) Starting service instance "root"
+2023-08-26 09:08:03.889 [info] [Info  - 9:08:03 AM] (465) Setting pythonPath for service "root": "/usr/local/bin/python"
+2023-08-26 09:08:03.907 [info] [Warn  - 9:08:03 AM] (465) stubPath /root/typings is not a valid directory.
+2023-08-26 09:08:03.944 [info] [Info  - 9:08:03 AM] (465) Assuming Python version 3.11
+2023-08-26 09:08:06.934 [info] [Info  - 9:08:06 AM] (465) Found 1 source file
+2023-08-26 09:08:13.734 [info] [Info  - 9:08:13 AM] (465) [BG(1)] Long operation: parsing: /root/code/main.py (4001ms)
+2023-08-26 09:08:14.350 [info] [Info  - 9:08:14 AM] (465) [BG(1)] Long operation: indexing: /root/code/main.py (4621ms)
+2023-08-26 09:08:35.927 [info] [Info  - 9:08:35 AM] (465) [IDX(2)] Long operation: scan packages /root (24535ms)
+2023-08-26 09:08:41.896 [info] [Info  - 9:08:41 AM] (465) [IDX(2)] Long operation: parsing: /usr/local/lib/python3.11/site-packages/IPython/__init__.py (4857ms)
+2023-08-26 09:08:42.127 [info] [Info  - 9:08:42 AM] (465) [IDX(2)] Long operation: indexing: /usr/local/lib/python3.11/site-packages/IPython/__init__.py (5090ms)
+2023-08-26 09:08:47.838 [info] [Info  - 9:08:47 AM] (465) [IDX(2)] Long operation: index execution environment /root (10814ms)
+2023-08-26 09:08:47.863 [info] [Info  - 9:08:47 AM] (465) [IDX(2)] Long operation: index packages /root (10999ms)

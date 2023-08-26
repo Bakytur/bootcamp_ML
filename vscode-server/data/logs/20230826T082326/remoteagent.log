@@ -1,0 +1,16 @@
+2023-08-26 08:23:28.137 [info] 
+
+
+
+
+2023-08-26 08:23:28.299 [info] Extension host agent started.
+2023-08-26 08:23:29.399 [info] [127.0.0.1][9c4f5d51][ManagementConnection] New connection established.
+2023-08-26 08:23:29.415 [debug] No uninstalled extensions found.
+2023-08-26 08:23:29.622 [debug] Error while reading the extension cache file: /root/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.user.cache Unable to read file '/root/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.user.cache' (Error: Unable to resolve nonexistent file '/root/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.user.cache')
+2023-08-26 08:23:30.115 [debug] Using cached extensions scan result file:///root/.vscode-server/bin/6c3e3dba23e8fadc360aed75ce363ba185c49794/extensions
+2023-08-26 08:23:30.162 [info] [127.0.0.1][65ab83eb][ExtensionHostConnection] New connection established.
+2023-08-26 08:23:30.279 [info] [127.0.0.1][65ab83eb][ExtensionHostConnection] <233> Launched Extension Host Process.
+2023-08-26 08:23:30.326 [debug] ComputeTargetPlatform: linux-x64
+2023-08-26 08:23:33.990 [info] Log level changed to info
+2023-08-26 08:24:44.659 [info] [127.0.0.1][65ab83eb][ExtensionHostConnection] <233> Starting WebSocket: RAW/api/kernels/7404e9a6-03d6-4c90-8319-0907827e699f
+

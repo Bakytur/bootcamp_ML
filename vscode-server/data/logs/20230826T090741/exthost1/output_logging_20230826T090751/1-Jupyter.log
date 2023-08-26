@@ -1,0 +1,56 @@
+Visual Studio Code (1.81.1, attached-container, desktop)
+Jupyter Extension Version: 2023.7.1002162226.
+Python Extension Version: 2023.14.0.
+Platform: linux (x64).
+Workspace folder /root, Home = /root
+09:07:56.403 [info] User belongs to experiment group 'FastKernelPicker'
+09:07:56.403 [info] User belongs to experiment group 'NewRemoteUriStorage'
+09:07:56.403 [info] User belongs to experiment group 'PasswordManager'
+09:07:56.403 [info] User belongs to experiment group 'NewJupyterSession'
+09:07:57.201 [info] Start refreshing Kernel Picker (1693040877201)
+09:07:57.219 [info] Using Pylance
+09:07:59.509 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher  (Python Path: /usr/local/bin/python, Unknown, 3.11.4) for '~/code/experiment.ipynb' (disableUI=true)
+09:08:00.421 [info] End refreshing Kernel Picker (1693040877201)
+09:08:00.581 [warn] Failed to get activated env vars for /usr/local/bin/python in 1513ms
+09:08:00.596 [warn] Failed to get activated env vars for /usr/local/bin/python in 919ms
+09:08:00.617 [info] Process Execution: /usr/local/bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+09:08:00.680 [info] Process Execution: /usr/local/bin/python -m pip list
+09:08:00.711 [info] Process Execution: /usr/local/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+09:08:00.741 [info] Process Execution: /usr/local/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"74e394c5-9aa9-4313-a9ff-fe492f0bcc00" --shell=9002 --transport="tcp" --iopub=9004 --f=~/.local/share/jupyter/runtime/kernel-v2-24610d7IKWURs9i.json
+    > cwd: ~/code
+09:08:01.626 [info] ipykernel version & path 6.25.1, /usr/local/lib/python3.11/site-packages/ipykernel/__init__.py for /usr/local/bin/python
+09:08:03.583 [warn] StdErr from Kernel Process 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+09:08:03.701 [info] Started Kernel Python 3.11.4 (pid: 461)
+09:08:03.702 [info] Started new session 44cf929a-4270-4fb0-a1a2-254dd121fc4e
+09:08:03.887 [info] Process Execution: /usr/local/bin/python ~/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/pythonFiles/printJupyterDataDir.py
+09:08:12.723 [info] Handle Execution of Cells 1 for ~/code/experiment.ipynb
+09:08:12.802 [info] Kernel acknowledged execution of cell 1 @ 1693040892782
+09:08:12.818 [info] End cell 1 execution @ 1693040892799, started @ 1693040892782, elapsed time = 0.017s
+09:08:13.881 [info] Handle Execution of Cells 2 for ~/code/experiment.ipynb
+09:08:13.916 [info] Kernel acknowledged execution of cell 2 @ 1693040893903
+09:08:13.945 [info] End cell 2 execution @ 1693040893919, started @ 1693040893903, elapsed time = 0.016s
+09:08:16.036 [info] Handle Execution of Cells 4 for ~/code/experiment.ipynb
+09:08:16.058 [info] Kernel acknowledged execution of cell 4 @ 1693040896047
+09:08:16.076 [info] End cell 4 execution @ 1693040896059, started @ 1693040896047, elapsed time = 0.012s
+09:08:17.769 [info] Handle Execution of Cells 6 for ~/code/experiment.ipynb
+09:08:17.802 [info] Kernel acknowledged execution of cell 6 @ 1693040897790
+09:08:17.816 [info] End cell 6 execution @ 1693040897804, started @ 1693040897790, elapsed time = 0.014s
+09:08:18.560 [info] Handle Execution of Cells 7 for ~/code/experiment.ipynb
+09:08:18.597 [info] Kernel acknowledged execution of cell 7 @ 1693040898583
+09:08:18.610 [info] End cell 7 execution @ 1693040898595, started @ 1693040898583, elapsed time = 0.012s
+09:08:19.345 [info] Handle Execution of Cells 8 for ~/code/experiment.ipynb
+09:08:19.380 [info] Kernel acknowledged execution of cell 8 @ 1693040899366
+09:08:19.386 [info] End cell 8 execution @ 1693040899378, started @ 1693040899366, elapsed time = 0.012s
+09:08:19.960 [info] Handle Execution of Cells 9 for ~/code/experiment.ipynb
+09:08:19.992 [info] End cell 9 execution @ undefined, started @ undefined, elapsed time = 0s
+09:08:20.631 [info] Handle Execution of Cells 10 for ~/code/experiment.ipynb
+09:08:20.649 [info] End cell 10 execution @ undefined, started @ undefined, elapsed time = 0s
+09:08:21.825 [info] Handle Execution of Cells 11 for ~/code/experiment.ipynb
+09:08:21.839 [info] End cell 11 execution @ undefined, started @ undefined, elapsed time = 0s
+09:08:25.116 [info] Loading webview. View is notset
+09:08:25.118 [info] Loading web view...
+09:08:25.121 [info] Webview panel created.
+09:08:25.528 [info] Web view react rendered

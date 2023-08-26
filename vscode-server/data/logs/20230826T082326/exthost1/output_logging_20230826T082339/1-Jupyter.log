@@ -1,0 +1,119 @@
+Visual Studio Code (1.81.1, attached-container, desktop)
+Jupyter Extension Version: 2023.7.1002162226.
+Python Extension Version: 2023.14.0.
+Platform: linux (x64).
+Workspace folder /root, Home = /root
+08:23:45.639 [info] User belongs to experiment group 'FastKernelPicker'
+08:23:45.640 [info] User belongs to experiment group 'NewRemoteUriStorage'
+08:23:45.640 [info] User belongs to experiment group 'PasswordManager'
+08:23:45.640 [info] User belongs to experiment group 'NewJupyterSession'
+08:23:46.400 [info] Start refreshing Kernel Picker (1693038226400)
+08:23:46.408 [info] Using Pylance
+08:23:48.277 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher  (Python Path: /usr/local/bin/python, Unknown, 3.11.4) for '~/code/experiment.ipynb' (disableUI=true)
+08:23:49.441 [info] End refreshing Kernel Picker (1693038226400)
+08:23:49.558 [warn] Failed to get activated env vars for /usr/local/bin/python in 1571ms
+08:23:49.574 [warn] Failed to get activated env vars for /usr/local/bin/python in 1071ms
+08:23:49.594 [info] Process Execution: /usr/local/bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+08:23:49.679 [info] Process Execution: /usr/local/bin/python -m pip list
+08:23:49.694 [info] Process Execution: /usr/local/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+08:23:49.714 [info] Process Execution: /usr/local/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"3c0f1d68-2f04-4a25-9fee-d3785fdd0456" --shell=9002 --transport="tcp" --iopub=9004 --f=~/.local/share/jupyter/runtime/kernel-v2-233nMnfyzJEA7w7.json
+    > cwd: ~/code
+08:23:49.809 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for /usr/local/bin/python
+08:23:49.859 [warn] StdErr from Kernel Process /usr/local/bin/python: No module named ipykernel_launcher
+08:23:49.867 [error] Disposing kernel process due to an error Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher
+    > Interpreter Id = /usr/local/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:24:91039)
+    > stdErr = /usr/local/bin/python: No module named ipykernel_launcher
+08:23:49.867 [info] Dispose Kernel process 478.
+08:23:49.879 [error] Kernel Launcher. launch, Class name = Ky, completed in 1376ms, has a falsy return value, Arg 1: ".jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher", Arg 2: 60000, Arg 3: "~/code/experiment.ipynb", Arg 4: "~/code", Arg 5: "" Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher
+    > Interpreter Id = /usr/local/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:24:91039)
+    > stdErr = /usr/local/bin/python: No module named ipykernel_launcher
+08:23:49.880 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+08:23:49.888 [warn] Error occurred while trying to start the kernel, options.disableUI=true Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher
+    > Interpreter Id = /usr/local/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:24:91039)
+    > stdErr = /usr/local/bin/python: No module named ipykernel_launcher
+08:24:02.046 [info] Handle Execution of Cells 6 for ~/code/experiment.ipynb
+08:24:02.062 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher  (Python Path: /usr/local/bin/python, Unknown, 3.11.4) for '~/code/experiment.ipynb' (disableUI=false)
+08:24:02.098 [info] Process Execution: /usr/local/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+08:24:02.142 [info] Process Execution: /usr/local/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9011 --control=9009 --hb=9008 --Session.signature_scheme="hmac-sha256" --Session.key=b"a1dadebe-56d0-486e-b07d-c8488113d169" --shell=9010 --transport="tcp" --iopub=9012 --f=~/.local/share/jupyter/runtime/kernel-v2-233nzW0VNGu7Ndx.json
+    > cwd: ~/code
+08:24:02.161 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    ModuleNotFoundError: No module named 'ipykernel' for /usr/local/bin/python
+08:24:02.239 [warn] StdErr from Kernel Process /usr/local/bin/python: No module named ipykernel_launcher
+08:24:02.256 [error] Disposing kernel process due to an error Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher
+    > Interpreter Id = /usr/local/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:24:91039)
+    > stdErr = /usr/local/bin/python: No module named ipykernel_launcher
+08:24:02.256 [info] Dispose Kernel process 610.
+08:24:02.269 [error] Kernel Launcher. launch, Class name = Ky, completed in 190ms, has a falsy return value, Arg 1: ".jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher", Arg 2: 60000, Arg 3: "~/code/experiment.ipynb", Arg 4: "~/code", Arg 5: "" Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher
+    > Interpreter Id = /usr/local/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:24:91039)
+    > stdErr = /usr/local/bin/python: No module named ipykernel_launcher
+08:24:02.270 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+08:24:02.273 [warn] Error occurred while trying to start the kernel, options.disableUI=false Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher
+    > Interpreter Id = /usr/local/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:24:91039)
+    > stdErr = /usr/local/bin/python: No module named ipykernel_launcher
+08:24:02.275 [warn] Kernel Error, context = start Error: The kernel died. Error: /usr/local/bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher
+    > Interpreter Id = /usr/local/bin/python
+    > at ChildProcess.<anonymous> (~/.vscode-server/extensions/ms-toolsai.jupyter-2023.7.1002162226-linux-x64/out/extension.node.js:24:91039)
+    > stdErr = /usr/local/bin/python: No module named ipykernel_launcher
+08:24:02.310 [info] Process Execution: /usr/local/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+08:24:02.359 [info] Check & install missing Kernel dependencies for /usr/local/bin/python, ui.disabled=false for resource '~/code/experiment.ipynb'
+08:24:02.384 [info] Process Execution: /usr/local/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+08:24:02.472 [info] Process Execution: /usr/local/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+08:24:04.868 [info] Process Execution: /usr/local/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+08:24:05.012 [info] Process Execution: /usr/local/bin/python -m pip install -U --user ipykernel
+08:24:42.137 [info] Process Execution: /usr/local/bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+08:24:42.709 [info] Process Execution: /usr/local/bin/python -m pip list
+08:24:42.714 [info] Dispose Kernel '~/code/experiment.ipynb' associated with '~/code/experiment.ipynb'
+08:24:42.724 [info] Starting Kernel startUsingPythonInterpreter, .jvsc74a57bd0949777d72b0d2535278d3dc13498b2535136f6dfe0678499012e853ee9abcab1./usr/local/python./usr/local/python.-m#ipykernel_launcher  (Python Path: /usr/local/bin/python, Unknown, 3.11.4) for '~/code/experiment.ipynb' (disableUI=false)
+08:24:42.762 [info] Process Execution: /usr/local/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+08:24:42.826 [info] Process Execution: /usr/local/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9019 --control=9017 --hb=9016 --Session.signature_scheme="hmac-sha256" --Session.key=b"3a3592dd-a67a-4886-9cfd-c0d56861e24f" --shell=9018 --transport="tcp" --iopub=9020 --f=~/.local/share/jupyter/runtime/kernel-v2-233jwkHK1fDreG2.json
+    > cwd: ~/code
+08:24:43.514 [info] ipykernel version & path 6.25.1, ~/.local/lib/python3.11/site-packages/ipykernel/__init__.py for /usr/local/bin/python
+08:24:44.457 [warn] StdErr from Kernel Process 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+08:24:44.529 [warn] StdErr from Kernel Process ~/.local/lib/python3.11/site-packages/traitlets/traitlets.py:2548: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use 'hmac-sha256' instead of '"hmac-sha256"' if you require traitlets >=5.
+  warn(
+08:24:44.530 [warn] StdErr from Kernel Process ~/.local/lib/python3.11/site-packages/traitlets/traitlets.py:2499: FutureWarning: Supporting extra quotes around Bytes is deprecated in traitlets 5.0. Use '3a3592dd-a67a-4886-9cfd-c0d56861e24f' instead of 'b"3a3592dd-a67a-4886-9cfd-c0d56861e24f"'.
+  warn(
+08:24:44.736 [info] Started Kernel Python 3.11.4 (pid: 990)
+08:24:44.737 [info] Started new session 7404e9a6-03d6-4c90-8319-0907827e699f
+08:24:44.803 [info] Kernel acknowledged execution of cell 6 @ 1693038284796
+08:24:44.811 [info] End cell 6 execution @ 1693038284802, started @ 1693038284796, elapsed time = 0.006s
+08:35:02.569 [info] Handle Execution of Cells 10 for ~/code/experiment.ipynb
+08:35:02.601 [info] Kernel acknowledged execution of cell 10 @ 1693038902585
+08:35:03.116 [info] End cell 10 execution @ 1693038903113, started @ 1693038902585, elapsed time = 0.528s
+08:37:32.636 [info] Handle Execution of Cells 11 for ~/code/experiment.ipynb
+08:37:32.649 [info] Kernel acknowledged execution of cell 11 @ 1693039052646
+08:37:32.670 [info] End cell 11 execution @ 1693039052664, started @ 1693039052646, elapsed time = 0.018s
+08:47:37.575 [info] Handle Execution of Cells 12 for ~/code/experiment.ipynb
+08:47:37.597 [info] Kernel acknowledged execution of cell 12 @ 1693039657588
+08:47:37.837 [info] End cell 12 execution @ 1693039657833, started @ 1693039657588, elapsed time = 0.245s
+08:47:37.838 [warn] Cancel all remaining cells due to cancellation or failure in execution
+08:52:09.044 [info] Handle Execution of Cells 12 for ~/code/experiment.ipynb
+08:52:09.071 [info] Kernel acknowledged execution of cell 12 @ 1693039929065
+08:52:09.101 [info] End cell 12 execution @ 1693039929096, started @ 1693039929065, elapsed time = 0.031s
+08:52:09.101 [warn] Cancel all remaining cells due to cancellation or failure in execution
+08:52:38.007 [info] Handle Execution of Cells 12 for ~/code/experiment.ipynb
+08:52:38.027 [info] Kernel acknowledged execution of cell 12 @ 1693039958022
+08:52:38.037 [info] End cell 12 execution @ 1693039958030, started @ 1693039958022, elapsed time = 0.008s
+08:52:38.038 [warn] Cancel all remaining cells due to cancellation or failure in execution
+08:54:39.058 [info] Handle Execution of Cells 12 for ~/code/experiment.ipynb
+08:54:39.086 [info] Kernel acknowledged execution of cell 12 @ 1693040079078
+08:54:39.968 [info] End cell 12 execution @ 1693040079965, started @ 1693040079078, elapsed time = 0.887s
